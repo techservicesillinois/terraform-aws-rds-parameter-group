@@ -6,7 +6,7 @@ variable "family" {
  description = "(Required) The family of the DB parameter group."
 }
 
-variable "parameters" {
+variable "parameter" {
   description = "A list of DB parameters (map) to apply"
   default     = []
 }

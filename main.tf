@@ -5,7 +5,7 @@ resource "aws_db_parameter_group" "default" {
  description = "${var.name} parameter group"
  family      = "${var.family}"
 
- parameter = ["${var.parameters}"]
+ parameter = ["${var.parameter}"]
 
  tags = "${merge(map("Name", var.name), var.tags)}"
 

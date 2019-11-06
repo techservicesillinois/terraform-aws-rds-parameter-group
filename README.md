@@ -1,4 +1,6 @@
-# terraform-aws-rds-parameter-group module
+# rds-parameter-group module
+
+[![Build Status](https://drone.techservices.illinois.edu/api/badges/techservicesillinois/terraform-aws-rds-parameter-group/status.svg)](https://drone.techservices.illinois.edu/techservicesillinois/terraform-aws-rds-parameter-group)
 
 Terraform module which creates an RDS parameter group.
 
@@ -13,12 +15,12 @@ module "rds-parameter-group" {
   parameter = [
     {
       name  = "open_cursors"
-      value = "2000"
+      value = 2000
       apply_method = "pending-reboot"
     },
     {
       name  = "processes"
-      value = "300"
+      value = 300
       apply_method = "pending-reboot"
     }
   ]

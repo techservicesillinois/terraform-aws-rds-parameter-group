@@ -1,8 +1,8 @@
 # rds-parameter-group module
 
-[![Build Status](https://drone.techservices.illinois.edu/api/badges/techservicesillinois/terraform-aws-rds-parameter-group/status.svg)](https://drone.techservices.illinois.edu/techservicesillinois/terraform-aws-rds-parameter-group)
+[![Terraform actions status](https://github.com/techservicesillinois/terraform-aws-rds-parameter-group/workflows/terraform/badge.svg)](https://github.com/techservicesillinois/terraform-aws-rds-parameter-group/actions)
 
-Terraform module which creates an RDS parameter group.
+Manage an RDS parameter group.
 
 ## Usage
 
